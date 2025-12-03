@@ -1,5 +1,12 @@
 {
-  "users": [],
-  "stellarium": []
+  "users": [
+    {
+      "name": "Alex Starwalker",
+      "id": "1",
+      "username": "alex",
+      "password": "123",
+      "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=Alex",
+      "stellarium": []
+    }
+  ]
 }
-
