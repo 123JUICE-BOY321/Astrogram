@@ -53,6 +53,7 @@ Create a `.env` in the root:
 ```env
 VITE_NASA_API_KEY=YOUR_NASA_API_KEY
 VITE_API_URL=http://localhost:3000
+VITE_API_URL=http://localhost:3000
 ```
 
 ### 3. Run JSON‑Server (fake backend)
