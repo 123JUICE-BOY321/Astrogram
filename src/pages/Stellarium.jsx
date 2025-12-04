@@ -103,7 +103,7 @@ const Stellarium = () => {
       </header>
       <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
         {savedItems.map((item) => (
-          <SavedCard key={`${item.date}-${item.title}`} item={item} onDelete={handleDelete} />
+          <SavedCard key={`${item.date}`} item={item} onDelete={handleDelete} />
         ))}
       </div>
     </div>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import Loader from "../components/Loader";
 import Hero from "../components/Hero";
-import Cards from "../components/Cards";
+import ExploreFeed from "../components/ExploreFeed";
 
 const API_KEY = import.meta.env.VITE_NASA_API_KEY;
 
@@ -34,8 +34,8 @@ const Discover = () => {
 
   return (
     <div>
-      <Hero item={heroData} key={localStorage.getItem("astroUser")}/>
-      <Cards initialFeed={feedData} />
+      <Hero item={heroData}/>
+      <ExploreFeed initialFeed={feedData} />
     </div>
   );
 };

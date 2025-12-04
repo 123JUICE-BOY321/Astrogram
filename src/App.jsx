@@ -13,7 +13,7 @@ function App() {
     <div className="min-h-screen relative">
       <Starfield />
       <Navbar />
-      <main className="pt-20 pb-25 max-w-7xl mx-auto relative">
+      <main className="pt-20 pb-10 min-h-screen max-w-7xl mx-auto px-4 relative z-10">
         <Routes>
           <Route path="/" element={<Discover key={localStorage.getItem("astroUser") ? "logged" : "loggedOut"}/> } />
           <Route path="/stellarium" element={<Stellarium />} />
