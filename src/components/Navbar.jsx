@@ -68,7 +68,7 @@ const Navbar = () => {
                 </div>
                 <img src={user.avatar} className="w-8 h-8 rounded-full border border-white/20 bg-slate-800"/>
               </button>
-              <div className="absolute right-0 mt-2 w-48 bg-slate-950/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/10 overflow-hidden hidden group-hover:block z-50">
+              <div className="absolute right-0 mt-2 w-48 bg-slate-950/90 backdrop-blur-xl rounded-xl shadow-xl border border-white/10 overflow-hidden invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all z-50">
                 <Link to="/settings" className="w-full text-left px-4 py-3 hover:bg-white/5 text-sm text-slate-300 transition-colors flex items-center gap-2 border-b border-white/5">
                   <LuSettings size={16} /> Settings
                 </Link>

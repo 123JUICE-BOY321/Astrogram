@@ -52,7 +52,7 @@ Create a `.env` in the root:
 
 ```env
 VITE_NASA_API_KEY=YOUR_NASA_API_KEY
-VITE_API_URL=http://localhost:4000
+VITE_API_URL=http://localhost:3000
 ```
 
 ### 3. Run JSON‑Server (fake backend)
@@ -60,7 +60,7 @@ VITE_API_URL=http://localhost:4000
 ```bash
 npm run server
 # or:
-# json-server --watch db.json --port 4000
+# json-server --watch ./server/db.json --port 3000
 ```
 
 Schema:
