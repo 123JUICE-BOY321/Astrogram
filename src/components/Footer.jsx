@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="relative z-10 pt-25 overflow-hidden">
       <div className="flex flex-col items-center gap-6">
         
-        <a href="#" className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-all border border-white/5 backdrop-blur-md group">
+        <a href="https://github.com/123JUICE-BOY321/Astrogram" target="_blank" className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-slate-400 hover:text-white transition-all border border-white/5 backdrop-blur-md group">
           <LuGithub className="w-5 h-5 group-hover:scale-110 transition-transform" />
         </a>
 

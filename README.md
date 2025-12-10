@@ -7,6 +7,19 @@ Create an account, save favourite cosmic shots to your personal **Stellarium**, 
 
 ---
 
+## Presentation
+
+![Description](./assets/Picture.png)
+
+## 🎥 Project Videos
+- [Astrogram Demo](https://tinyurl.com/Astrogram-Demo)
+- [Astrogram Code](https://tinyurl.com/Astrogram-Code)
+
+## 📄 Project Report
+- [Project Report (Click Here)](https://tinyurl.com/Astrogram-Report)
+
+---
+
 ## ✨ Features
 
 * 🚀 Daily hero APOD + infinite “Explore” feed

@@ -75,7 +75,7 @@ const Card = ({ item }) => {
   }
 
   return (
-    <div className="break-inside-avoid mb-6 group relative bg-slate-800/70 backdrop-blur-md rounded-2xl overflow-hidden border border-white/10 hover:border-sky-400/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-400/10 hover:-translate-y-1">
+    <div className="break-inside-avoid mb-6 group relative bg-slate-800/70 rounded-2xl overflow-hidden border border-white/10 hover:border-sky-400/50 transition-all duration-300 hover:shadow-2xl hover:shadow-sky-400/10 hover:-translate-y-1">
       <div className="relative overflow-hidden">
         {item.media_type === "video" ?
           (<div className="aspect-video">
@@ -88,7 +88,7 @@ const Card = ({ item }) => {
             onClick={toggleSave}
             disabled={processing}
             aria-label={saved ? `Unsave ${item.title}` : `Save ${item.title}`}
-            className={`p-2 rounded-full backdrop-blur-md border shadow-lg transition-colors
+            className={`p-2 rounded-full backdrop-blur-xs border shadow-lg transition-colors
               ${saved ? "bg-sky-400/20 text-sky-400 border-sky-400/50" : "bg-black/40 text-white border-white/10 hover:bg-sky-400/20 hover:text-sky-400"}`}
             title={saved ? "Unsave" : "Save"}>
             {saved ? <LuCheck /> : <LuBookmark />}
